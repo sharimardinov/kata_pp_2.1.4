@@ -9,12 +9,12 @@ public class Needle7 {
     private Deth8 deth;
 
     @Autowired
-    public Needle7(Deth8 deth) {
+    public void setDeth(Deth8 deth) {
         this.deth = deth;
     }
 
     @Override
     public String toString() {
-        return " в яйце иголка ," + deth.toString();
+        return "в яйце иголка , " + deth.toString();
     }
 }

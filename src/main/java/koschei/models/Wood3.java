@@ -15,6 +15,6 @@ public class Wood3 {
 
     @Override
     public String toString() {
-        return " на острове дерево ," + rabbit.toString();
+        return "на острове дерево , " + rabbit.toString();
     }
 }

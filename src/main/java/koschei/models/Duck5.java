@@ -9,10 +9,12 @@ public class Duck5 {
     private Egg6 egg;
 
     @Autowired
-    public Duck5(Egg6 egg) { this.egg = egg; }
+    public Duck5(Egg6 egg) {
+        this.egg = egg;
+    }
 
     @Override
     public String toString() {
-        return " в зайце утка ," + egg.toString();
+        return "в зайце утка , " + egg.toString();
     }
 }

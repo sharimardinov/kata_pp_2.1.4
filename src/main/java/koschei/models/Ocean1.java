@@ -13,6 +13,6 @@ public class Ocean1 {
 
     @Override
     public String toString() {
-        return "На свете есть океан ," + island.toString();
+        return "На свете есть океан , " + island.toString();
     }
 }

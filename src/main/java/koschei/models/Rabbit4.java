@@ -15,6 +15,6 @@ public class Rabbit4 {
 
     @Override
     public String toString() {
-        return "на дереве заяц ," + duck.toString();
+        return "на дереве заяц , " + duck.toString();
     }
 }

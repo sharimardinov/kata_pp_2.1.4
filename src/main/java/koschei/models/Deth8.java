@@ -8,7 +8,9 @@ public class Deth8 {
     private String id;
 
     @Autowired
-    public Deth8() { this.id = " смерть Кощея на игле :("; }
+    public Deth8() {
+        this.id = "смерть Кощея на игле :(";
+    }
 
     @Override
     public String toString() {
